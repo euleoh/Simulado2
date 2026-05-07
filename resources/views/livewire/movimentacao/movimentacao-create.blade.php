@@ -3,7 +3,7 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="mb-0">Gestão de Estoque</h2>
             <div class="d-flex gap-2">
-                <a class="btn btn-secondary" href="{{ route('movimentacao.index') }}"> Movimentações </a>
+                <a class="btn btn-secondary mt-4" href="{{ route('movimentacao.index') }}"> Movimentações </a>
             </div>
         </div>
         @if (session('message'))
